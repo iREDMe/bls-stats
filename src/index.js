@@ -63,6 +63,12 @@ class Site extends Component {
 				<div className='stats-contents'>
 					{this.state.currentStats}
 				</div>
+				<br />
+				<div className='credit-because-i-can-add-it'>
+					Created by <a href='https://github.com/iREDMe'>iREDMe</a>
+					<br />
+					<a href='https://github.com/iREDMe/bls-stats'>Shitty Source Code</a>
+				</div>
 			</div>
 		);
 	}
